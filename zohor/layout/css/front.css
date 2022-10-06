@@ -1,0 +1,349 @@
+/* start main rules  */
+
+body{
+    background-color: #f4f4f4;
+    font-size:16px;
+}
+
+.asterisk{
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+    top: 5px;
+    color: #bb0404;
+}
+.main-form .asterisk{
+    position: absolute;
+    font-size: 28px;
+    right: 28px;
+    top: 9px;
+    color: #bb0404;
+}
+h1{
+    font-size:45px;
+    margin:40px 0px;
+    font-weight: bold;
+    color:#666;
+}
+/* end main rules  */
+
+
+
+/* start bootstrap edits */
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar-brand{
+    font-size: 26px;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-brand {
+    color: #f30b74;
+    font-family: 'Oleo Script', cursive;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #f30b74;
+}
+.navbar-inverse .navbar-brand span{
+    color: #fff;
+}
+
+.nav > li > a,.navbar-brand{
+    padding: 15px 12px;
+    
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus,.dropdown-menu{
+    background-color:#3498db;
+}
+.dropdown-menu{
+    min-width: 180px;
+    padding:0px;
+    border:none;
+    font-size: 1em;
+    border-radius: 0px;
+}
+
+.dropdown-menu > li >a{
+    color:#fff;
+    padding: 10px 15px;
+}
+.form-control,.input-container{
+    position: relative;
+}
+
+/* end bootstrap edits*/
+/*start header*/
+.upper-bar{
+    padding:10px;
+    background-color:#fff;
+}
+/*end header*/
+
+/*start login page */
+
+.login-page form,
+.the-errors{
+   max-width: 320px;
+   margin: auto;
+}
+.login-page [data-class='login'].selected{
+    color:#337ab7;
+}
+.login-page [data-class='signup'].selected{
+    color:#5cb85c;
+}
+.login-page form input{
+   margin-bottom: 10px;
+}
+.login-page .selected{
+    color:#b22020;
+}
+.login-page h1{
+    color:#c0c0c0;
+}
+.login-page h1 span{
+    cursor: pointer;
+}
+.login-page .signup{
+    display: none;
+}
+.the-errors .msg{
+    padding: 10px;
+    text-align: left;
+    color:#919191;
+    background-color: #fff;
+}
+.the-errors .error{
+    border-left: 3px solid #cd6858;
+}
+.the-errors .success{
+    border-left: 3px solid #5cb85c;
+}
+/* end logn page */
+
+/* start categories page */
+.item-box{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 0;
+}
+.item-box .price-tag{
+    background-color:#F30B74;
+    padding:2px 10px;
+    position:absolute;
+    left: 0;
+    top:10px;
+    font-weight: bold;
+    color:#fff;
+}
+.item-box .img_control{
+    width: 120px;
+    height: 180px;
+    max-width: 120px;
+    max-height: 180px;
+    min-width: 120px;
+    min-height: 180px;
+}
+.item-box .price-tag-2{
+    background-color:#808080;
+    padding:2px 10px;
+    position:absolute;
+    left: 0;
+    top:40px;
+    font-weight: bold;
+    color:#fff;
+}
+/* end categories page */
+
+/*start profile page */
+.information{
+    margin-top: 20px;
+}
+.information ul{
+    padding: 0;
+    margin: 0;
+}
+.information ul li{
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: #eee;
+}
+.information ul li span{
+    display: inline-block;
+    width: 160px;
+}
+.thumbnail .date{
+    text-align: right;
+    font-size: 13px;
+    color:#aaa;
+    font-weight: bold;
+}
+.approve-status{
+    position: absolute;
+    padding:3px 5px;
+    color:#fff;
+    background-color: #b85a5a;
+    top:40px;
+    left:0;
+}
+/*end profile page*/
+ /*start header */
+ .upper-bar{
+     padding:10px;
+     background-color: #fff;
+ }
+ .upper-bar img{
+     width:35px;
+     height: 35px;
+ }
+ /* end header */
+/* start show item page */
+.item-info h2{
+    padding:0px 10px;
+    margin-top: 0;
+}
+.item-info p{
+    padding:10px;
+}
+.item-info ul li{
+    padding:10px;
+}
+.item-info ul li:nth-child(odd){
+    background-color: #e8e8e8;
+}
+.item-info ul li span{
+    display: inline-block;
+    width: 120px;
+}
+.add-comment h3{
+    margin:0 0 10px;
+}
+.add-comment textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 140px;
+}
+.comment-box{
+    margin-bottom: 20px;
+}
+.comment-box img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.comment-box .lead{
+    background-color: #e0e0e0;
+    padding: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.comment-box .lead::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    top: 10px;
+    left: -28px;
+}
+/* end show item page */
+
+/* start custom */
+.custom-hr{
+    border-top: 1px solid #c9c9c9;
+}
+/* end custom */
+
+/* start make order */
+.cat_show{
+    background-color: #dcdcdc;
+    border-top: 5px solid #F30B74;
+    margin:30px 7px 0;
+    padding:10px 0;
+    max-width: 140px;
+    max-height: 95px;
+    min-height: 95px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cat_show div{
+    background-color:#fff;
+    color: #999999;
+    font-size: 22px;
+    font-weight:bold ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 10%;
+    padding: 21px 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.active{
+    border-top: none;
+}
+.active div{
+    border-radius: 0%;
+    color:#fff;
+    background-color: #F30B74;
+}
+/* end make order */
+/**************start card***********/
+.card{
+    margin-left: 10px;
+     margin-top: 60px;
+     
+ }
+ .card_title{
+   background-color:#F30B74;
+     padding: 10px;
+     color: #fff;
+     font-size: 22px;
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+ }
+ .card_nocontent,.card_content{
+     background-color: #fff;
+     font-size: 18px;
+     min-height: 200px;
+     box-shadow: 0px 2px 2px #bbb;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     text-align: center;
+     padding: 10px;
+ }
+ 
+ .card_nocontent span{
+     font-size: 100px;
+     padding: 10px;
+     color: #808080;
+     margin-bottom: 15px;
+     margin-top: 10px;
+ }
+ .plus{
+     color:lightgreen;
+ }
+ .clear{
+     
+     outline: none;
+     background-color:#e41b17;
+     border: none;
+     color: #fff;
+     padding: 1px 6px 3px 6px;
+     font-weight: bold;
+     font-size: 16px;
+     float:right;
+     margin-top: 4px;
+     border-radius: 100%;
+     
+ }
+ .ctrl{
+     max-width: 50px;
+     overflow: hidden;
+ }
+ 
+ /***********end card*************/
